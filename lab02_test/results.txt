@@ -1,0 +1,77 @@
+************************************************************************************************
+ITERATION 1 (UVM_TESTNAME, UVM_HIGH)
+************************************************************************************************
+UVM_INFO @ 0: reporter [RNTST] Running test base_test...
+UVM_INFO router_test_lib.sv(13) @ 0: uvm_test_top [top] Build phase is being executed
+
+UVM_INFO router_tb.sv(10) @ 0: uvm_test_top.tb [top] Build phase under execution
+
+UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+------------------------------------
+Name          Type       Size  Value
+------------------------------------
+uvm_test_top  base_test  -     @2551
+  tb          router_tb  -     @2600
+------------------------------------
+
+
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    4
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[UVMTOP]     1
+[top]     2
+Simulation complete via $finish(1) at time 0 FS + 179
+************************************************************************************************
+ITERATION 2 (UVM_LOW)
+************************************************************************************************
+UVM_INFO @ 0: reporter [RNTST] Running test base_test...
+UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+------------------------------------
+Name          Type       Size  Value
+------------------------------------
+uvm_test_top  base_test  -     @2549
+  tb          router_tb  -     @2598
+------------------------------------
+
+
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    2
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[UVMTOP]     1
+Simulation complete via $finish(1) at time 0 FS + 179
+************************************************************************************************
+CONCLUSION
+************************************************************************************************
+In the second iteration, with the verbosity set to low, any messages with greater verbosity is not printed. Recall the verbosity in the code is set as UVM_HIGH

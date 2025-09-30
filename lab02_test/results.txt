@@ -2,9 +2,9 @@
 ITERATION 1 (UVM_TESTNAME, UVM_HIGH)
 ************************************************************************************************
 UVM_INFO @ 0: reporter [RNTST] Running test base_test...
-UVM_INFO router_test_lib.sv(13) @ 0: uvm_test_top [top] Build phase is being executed
+UVM_INFO router_test_lib.sv(14) @ 0: uvm_test_top [base_test] Test build phase is being executed
 
-UVM_INFO router_tb.sv(10) @ 0: uvm_test_top.tb [top] Build phase under execution
+UVM_INFO router_tb.sv(11) @ 0: uvm_test_top.tb [router_tb] Testbench build phase under execution
 
 UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
 ------------------------------------
@@ -35,8 +35,10 @@ UVM_FATAL :    0
 ** Report counts by id
 [RNTST]     1
 [UVMTOP]     1
-[top]     2
+[base_test]     1
+[router_tb]     1
 Simulation complete via $finish(1) at time 0 FS + 179
+
 ************************************************************************************************
 ITERATION 2 (UVM_LOW)
 ************************************************************************************************
@@ -45,8 +47,8 @@ UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
 ------------------------------------
 Name          Type       Size  Value
 ------------------------------------
-uvm_test_top  base_test  -     @2549
-  tb          router_tb  -     @2598
+uvm_test_top  base_test  -     @2551
+  tb          router_tb  -     @2600
 ------------------------------------
 
 
@@ -71,6 +73,7 @@ UVM_FATAL :    0
 [RNTST]     1
 [UVMTOP]     1
 Simulation complete via $finish(1) at time 0 FS + 179
+
 ************************************************************************************************
 CONCLUSION
 ************************************************************************************************

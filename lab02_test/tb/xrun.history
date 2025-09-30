@@ -18,3 +18,9 @@ s8(29Sep2025:02:29:59):  xrun -f run.f +UVM_TESTNAME=base_test +UVM_VERBOSITY=UV
 s9(29Sep2025:02:53:53):  xrun -f run.f +UVM_TESTNAME=base_test +UVM_VERBOSITY=UVM_HIGH 
 #e10(29Sep2025:02:58:19): source ./xcelium.d/env.d/env.history.29Sep2025_02_58_19
 s10(29Sep2025:02:58:19):  xrun -f run.f +UVM_VERBOSITY=UVM_LOW 
+#e11(29Sep2025:16:27:54): source ./xcelium.d/env.d/env.history.29Sep2025_16_27_54
+s11(29Sep2025:16:27:54):  xrun -f run.f +UVM_TESTNAME=base_test +UVM_VERBOSITY=UVM_HIGH 
+#e12(29Sep2025:16:33:39): source ./xcelium.d/env.d/env.history.29Sep2025_16_33_39
+s12(29Sep2025:16:33:39):  xrun -f run.f +UVM_TESTNAME=base_test +UVM_VERBOSITY=UVM_HIGH 
+#e13(29Sep2025:16:34:11): source ./xcelium.d/env.d/env.history.29Sep2025_16_34_11
+s13(29Sep2025:16:34:11):  xrun -f run.f +UVM_TESTNAME=base_test +UVM_VERBOSITY=UVM_LOW 

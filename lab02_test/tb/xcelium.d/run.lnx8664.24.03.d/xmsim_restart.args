@@ -9,6 +9,7 @@
 /opt/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d/
 -sv_lib
 /opt/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d//additions/sv/lib/64bit/libuvmpli.so
++UVM_TESTNAME=base_test
 -MESSAGES
 -RUN
 -SV_LIB
@@ -16,7 +17,7 @@
 +EMGRLOG
 xrun.log
 -XLSTIME
-1759129099
+1759178051
 -XLKEEP
 -XLMODE
 ./xcelium.d/run.lnx8664.24.03.d
@@ -30,4 +31,4 @@ xrun
 -XLVERSION
 "TOOL:	xrun(64)	24.03-s005"
 -XLNAME
-./xcelium.d/run.lnx8664.24.03.d/ecelinux-07.ece.cornell.edu_873688
+./xcelium.d/run.lnx8664.24.03.d/ecelinux-19.ece.cornell.edu_875385

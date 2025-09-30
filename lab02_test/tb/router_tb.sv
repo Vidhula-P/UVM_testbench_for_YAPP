@@ -1,13 +1,14 @@
+//testbench
 class router_tb extends uvm_env;
-	`uvm_component_utils(router_tb)
+	`uvm_component_utils(router_tb) //component utility macro
 
-	function new(string name, uvm_component parent);
+	function new(string name, uvm_component parent); //component constructor
 		super.new(name,parent);
 	endfunction
 
 	virtual function void build_phase(uvm_phase phase);
 		super.build_phase(phase);
-		`uvm_info("top", "Build phase under execution\n", UVM_HIGH)
+		`uvm_info(get_type_name(), "Testbench build phase under execution\n", UVM_HIGH)
 	endfunction
 
 endclass: router_tb

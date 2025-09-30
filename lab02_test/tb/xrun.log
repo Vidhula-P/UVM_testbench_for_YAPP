@@ -1,5 +1,5 @@
 xrun(64): 24.03-s005: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
-TOOL:	xrun(64)	24.03-s005: Started on Sep 29, 2025 at 02:58:19 EDT
+TOOL:	xrun(64)	24.03-s005: Started on Sep 29, 2025 at 16:34:11 EDT
 xrun
 	-f run.f
 		-64
@@ -7,6 +7,7 @@ xrun
 		-incdir ../sv
 		../sv/yapp_pkg.sv
 		top.sv
+	+UVM_TESTNAME=base_test
 	+UVM_VERBOSITY=UVM_LOW
 
    User defined plus("+") options:
@@ -42,8 +43,8 @@ UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
 ------------------------------------
 Name          Type       Size  Value
 ------------------------------------
-uvm_test_top  base_test  -     @2549
-  tb          router_tb  -     @2598
+uvm_test_top  base_test  -     @2551
+  tb          router_tb  -     @2600
 ------------------------------------
 
 
@@ -70,4 +71,4 @@ UVM_FATAL :    0
 Simulation complete via $finish(1) at time 0 FS + 179
 /opt/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_root.svh:457     $finish;
 xcelium> exit
-TOOL:	xrun(64)	24.03-s005: Exiting on Sep 29, 2025 at 02:58:19 EDT  (total: 00:00:00)
+TOOL:	xrun(64)	24.03-s005: Exiting on Sep 29, 2025 at 16:34:11 EDT  (total: 00:00:00)
